@@ -1,0 +1,7 @@
+    public static class Conexion
+    {
+        public readonly static string ConectionString = System.Configuration.ConfigurationManager.ConnectionStrings["BLISoft.Properties.Settings.bliConnectionString1last"].ConnectionString;
+    }
+
+// Step 1 - Stablishing the connection                        
+MySqlConnection MyConexion = new MySqlConnection(Conexion.ConectionString);

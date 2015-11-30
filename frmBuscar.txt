@@ -1,0 +1,29 @@
+001-1180356-5
+
+ninguno
+
+
+	    frmBuscarPaciente ofrmBuscarPaciente = new frmBuscarPaciente();
+            ofrmBuscarPaciente.ShowDialog();
+            string cCodigo = ofrmBuscarPaciente.cCodigo;
+
+            // Si selecciono un registro
+            if (cCodigo != "" && cCodigo != null)
+            {
+                // Mostrar el codigo                      
+                txtCedulaPaciente.Text = Convert.ToString(cCodigo).Trim();
+
+            }
+
+
+
+            frmBuscarDoctor ofrmBuscarDoctor = new frmBuscarDoctor();
+            ofrmBuscarDoctor.ShowDialog();
+            string cCodigo = ofrmBuscarDoctor.cCodigo;
+
+            // Si selecciono un registro
+            if (cCodigo != "" && cCodigo != null)
+            {
+                // Mostrar el codigo                      
+                txtCedula.Text = Convert.ToString(cCodigo).Trim();
+	    }
