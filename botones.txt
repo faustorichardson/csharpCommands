@@ -5,6 +5,7 @@
                     this.btnGrabar.Enabled = false;
                     this.btnEditar.Enabled = false;
                     this.btnBuscar.Enabled = true;
+		    this.btnImprimir.Enabled = false;
                     this.btnEliminar.Enabled = false;
                     this.btnCancelar.Enabled = false;
                     this.btnSalir.Enabled = true;
@@ -15,6 +16,7 @@
                     this.btnGrabar.Enabled = true;
                     this.btnEditar.Enabled = false;
                     this.btnBuscar.Enabled = false;
+		    this.btnImprimir.Enabled = false;
                     this.btnEliminar.Enabled = false;
                     this.btnCancelar.Enabled = true;
                     this.btnSalir.Enabled = true;
@@ -25,6 +27,7 @@
                     this.btnGrabar.Enabled = false;
                     this.btnEditar.Enabled = false;
                     this.btnBuscar.Enabled = true;
+		    this.btnImprimir.Enabled = false;
                     this.btnEliminar.Enabled = false;
                     this.btnCancelar.Enabled = false;
                     this.btnSalir.Enabled = true;
@@ -35,6 +38,7 @@
                     this.btnGrabar.Enabled = true;
                     this.btnEditar.Enabled = false;
                     this.btnBuscar.Enabled = false;
+		    this.btnImprimir.Enabled = false;
                     this.btnEliminar.Enabled = true;
                     this.btnCancelar.Enabled = true;
                     this.btnSalir.Enabled = true;
@@ -45,6 +49,7 @@
                     this.btnGrabar.Enabled = false;
                     this.btnEditar.Enabled = true;
                     this.btnBuscar.Enabled = true;
+		    this.btnImprimir.Enabled = false;
                     this.btnEliminar.Enabled = false;
                     this.btnCancelar.Enabled = false;
                     this.btnSalir.Enabled = true;
@@ -58,6 +63,7 @@
                     this.btnGrabar.Enabled = false;
                     this.btnEditar.Enabled = false;
                     this.btnBuscar.Enabled = true;
+		    this.btnImprimir.Enabled = false;
                     this.btnEliminar.Enabled = false;
                     this.btnCancelar.Enabled = false;
                     this.btnSalir.Enabled = true;

@@ -1,5 +1,5 @@
 // Step 1 - Creating the connection
-MySqlConnection MyConexion = new MySqlConnection("Server=192.168.0.25;Database=bli;Uid=root;Pwd=9z0ghlover;");
+MySqlConnection MyConexion = new MySqlConnection(clsConexion.ConectionString);
 
 // Step 2 - Crear el comando de ejecucion
 MySqlCommand myCommand = myConexion.CreateCommand();
